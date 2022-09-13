@@ -1,0 +1,68 @@
+body {
+    background-image: url(../image/panther.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Huey {
+    display: inline-block;
+    /* background-color: black; */
+    padding: 10px;
+    margin: 10px 10px;
+    border: 1px solid black;
+    width: 225px;
+    height: 225px;  
+    background-image: url(../image/Huey.jpeg); 
+    background-size: cover;
+    border-radius:50px ;
+}
+
+.Frantz {
+    display: inline-block;
+    /* background-color: black; */
+    padding: 10px;
+    margin: 10px 10px;
+    border: 1px solid black;
+    width: 225px;
+    height: 225px;  
+    background-image: url(../image/Frantz.jpeg); 
+    background-size: cover;
+    border-radius:50px ;
+}
+
+.George {
+    display: inline-block;
+    /* background-color: black; */
+    padding: 10px;
+    margin: 10px 10px;
+    border: 1px solid black;
+    width: 225px;
+    height: 225px;  
+    background-image: url(../image/George.jpeg); 
+    background-size: cover;
+    border-radius:50px ;
+}
+.Fred {
+    display: inline-block;
+    /* background-color: black; */
+    padding: 10px;
+    margin: 10px 10px;
+    border: 1px solid black;
+    width: 225px;
+    height: 225px;  
+    background-image: url(../image/Fred.jpeg); 
+    background-size: cover;
+    border-radius:50px ;
+}
+
+.Marcus {
+    display: inline-block;
+    /* background-color: black; */
+    padding: 10px;
+    margin: 10px 10px;
+    border: 1px solid black;
+    width: 225px;
+    height: 225px;  
+    background-image: url(../image/Marcus.jpeg); 
+    background-size: cover;
+    border-radius:50px ;
+}
