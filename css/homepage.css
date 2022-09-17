@@ -1,68 +1,164 @@
-body {
+
+html, body {
+  /* background-image: url(../image/panther.jpeg); */
+  height:100%;
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
+.background {
     background-image: url(../image/panther.jpeg);
+    height:100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .Huey {
-    display: inline-block;
-    /* background-color: black; */
-    padding: 10px;
-    margin: 10px 10px;
-    border: 1px solid black;
-    width: 225px;
-    height: 225px;  
-    background-image: url(../image/Huey.jpeg); 
-    background-size: cover;
-    border-radius:50px ;
+  display: inline-block;
+  /* background-color: black; */
+  padding: 25px;
+  margin: 10px 10px;
+  border: 1px solid black;
+  width: 225px;
+  height: 225px;
+  background-image: url(../image/Huey.jpeg);
+  background-size: cover;
+  border-radius: 50px;
 }
 
 .Frantz {
-    display: inline-block;
-    /* background-color: black; */
-    padding: 10px;
-    margin: 10px 10px;
-    border: 1px solid black;
-    width: 225px;
-    height: 225px;  
-    background-image: url(../image/Frantz.jpeg); 
-    background-size: cover;
-    border-radius:50px ;
+  display: inline-block;
+  /* background-color: black; */
+  padding: 25px;
+  margin: 10px 10px;
+  border: 1px solid black;
+  width: 225px;
+  height: 225px;
+  background-image: url(../image/Frantz.jpeg);
+  background-size: cover;
+  border-radius: 50px;
 }
 
 .George {
-    display: inline-block;
-    /* background-color: black; */
-    padding: 10px;
-    margin: 10px 10px;
-    border: 1px solid black;
-    width: 225px;
-    height: 225px;  
-    background-image: url(../image/George.jpeg); 
-    background-size: cover;
-    border-radius:50px ;
+  display: inline-block;
+  /* background-color: black; */
+  padding: 25px;
+  margin: 10px 10px;
+  border: 1px solid black;
+  width: 225px;
+  height: 225px;
+  background-image: url(../image/George.jpeg);
+  background-size: cover;
+  border-radius: 50px;
 }
 .Fred {
-    display: inline-block;
-    /* background-color: black; */
-    padding: 10px;
-    margin: 10px 10px;
-    border: 1px solid black;
-    width: 225px;
-    height: 225px;  
-    background-image: url(../image/Fred.jpeg); 
-    background-size: cover;
-    border-radius:50px ;
+  display: inline-block;
+  /* background-color: black; */
+  padding: 25px;
+  margin: 10px 10px;
+  border: 1px solid black;
+  width: 225px;
+  height: 225px;
+  background-image: url(../image/Fred.jpeg);
+  background-size: cover;
+  border-radius: 50px;
 }
 
 .Marcus {
-    display: inline-block;
-    /* background-color: black; */
-    padding: 10px;
-    margin: 10px 10px;
-    border: 1px solid black;
-    width: 225px;
-    height: 225px;  
-    background-image: url(../image/Marcus.jpeg); 
+  display: inline-block;
+  /* background-color: black; */
+  padding: 25px;
+  margin: 10px 10px;
+  border: 1px solid black;
+  width: 225px;
+  height: 225px;
+  background-image: url(../image/Marcus.jpeg);
+  background-size: cover;
+  border-radius: 50px;
+}
+h1 {
+  text-align: center;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 100px;
+  color: black;
+}
+
+.photolinks {
+  text-align: center;
+  border-radius: 50px;
+}
+.heronames {
+    border: 2px solid black;
+    background-color: lightslategray;
+}
+li {
+  display: inline-block;
+  margin-right: 1.25rem;
+}
+ul {
+  /* background-color: black; */
+}
+#navBar {
+  display: inline-block;
+  margin-right: 1.25rem;
+  border: 2px solid gray;
+  padding: 10px 25px;
+  color: black;
+  background-color: goldenrod;
+  border-radius: 50px;
+}
+
+nav {
+    background-color: black;
+    padding: 15px 15px;
+    margin:-20px;
+    height: 150px;
+    background-repeat: no-repeat;
     background-size: cover;
-    border-radius:50px ;
+    background-position-y:center;
+    /* position:sticky;
+    top: 0; */
+}
+#logo {
+    height:125px;
+    margin-left: 10px;
+}
+.float-right {
+  float: right;
+}
+.col-1 {
+  column-count: 3;
+  column-gap: 40px;
+  /* column-rule-style:solid;
+        column-rule-color: lightseagreen; */
+  column-rule: 2px solid black;
+  background-color: blanchedalmond;
+  margin-right:-20px;
+  margin-left:-20px;
+  padding: 50px 50px;
+
+}
+h1 {
+  column-span: all;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+p {
+    text-align: center;
+    font-family: "Fredericka the Great", cursive;
+    font-size: 40px;
+    color: blanchedalmond; 
+}
+footer {
+    background-color: black;
+    padding: 20px;
+    display:block;
+    }
+.footertext {
+    color:white;
+}
+i {
+    color: white;
 }

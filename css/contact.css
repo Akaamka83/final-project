@@ -1,0 +1,69 @@
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+form {
+    width: 600px;
+    background-color: brown;
+    margin:0 auto;
+    
+}
+label {
+    display:block;
+}
+body {
+    background-color: blanchedalmond;
+}
+#navBar {
+    display:inline-block;
+    margin-right: 1.25rem;
+    margin-top: 1.25rem;
+    border: 2px solid gray;
+    padding: 10px 25px;
+    color: black;
+    background-color: goldenrod;
+    border-radius: 50px;
+    position: relative;
+}
+
+nav {
+    background-color: black;
+    padding: 15px 15px;
+    margin:2px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+    
+   
+
+    
+}
+#logo {
+    height:125px;
+    margin-left: 10px;
+   
+}
+.float-right {
+    float:right;
+}
+li {
+    display:inline-block;
+    margin-right: 1.25rem;
+  
+}
+main {
+    height: 720px;
+}
+footer {
+    background-color: black;
+    padding: 20px;
+    
+    }
+.footertext {
+    color:white;
+}
+i {
+    color: white;
+}
